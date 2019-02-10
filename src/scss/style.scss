@@ -43,10 +43,16 @@ div.w-100 ul.dev-icons {
 .dev-icons .list-inline-item i:hover{
 	color:#007bff;
 }
+.download {
+  color: #212529 !important;
+}
 
+.download:hover {
+  color: #fff !important;
+}
 
 .cv-download {
-	color: white;
+	color: #212529;
 	border-radius: 500px;
 	-webkit-border-radius: 500px;
     -moz-border-radius: 500px;
@@ -55,8 +61,13 @@ div.w-100 ul.dev-icons {
     padding: 10px 20px;
 }
 
-.cv-download:hover {
-  background-color:#007bff;
+.btn-branco {
+	border: 2px solid #212529;
+}
+
+.btn-branco:hover {
+	background-color: #212529;
+	color: black;
 }
 
 h1 {

@@ -25,8 +25,7 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 3.5rem;
   margin-right: 1rem; }
 
-
-  .social-icons a:last-child {
+.social-icons a:last-child {
   margin-right: 0; }
 
 .social-icons a:hover {
@@ -44,8 +43,14 @@ div.w-100 ul.dev-icons {
 .dev-icons .list-inline-item i:hover {
   color: #007bff; }
 
+.download {
+  color: #212529 !important; }
+
+.download:hover {
+  color: #fff !important; }
+
 .cv-download {
-  color: white;
+  color: #212529;
   border-radius: 500px;
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
@@ -53,8 +58,12 @@ div.w-100 ul.dev-icons {
   transition: background 0.4s, color 0.4s;
   padding: 10px 20px; }
 
-.cv-download:hover {
-  background-color: #007bff; }
+.btn-branco {
+  border: 2px solid #212529; }
+
+.btn-branco:hover {
+  background-color: #212529;
+  color: black; }
 
 h1 {
   font-size: 2.25rem; }
