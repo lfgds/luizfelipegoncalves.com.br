@@ -13,33 +13,47 @@ h1, h2, h3, h4, h5, h6 {
   color: #101010;
   font-weight: 700; }
 
-.logo {
-  height: 35px; }
-
 .social-icons a {
-  float: right;
+  display: inline-block;
   height: 3.5rem;
   width: 3.5rem;
   background-color: #212529;
   color: #fff !important;
   border-radius: 100%;
   text-align: center;
-  font-size: 5rem;
-  line-height: 5rem;
+  font-size: 1.5rem;
+  line-height: 3.5rem;
   margin-right: 1rem; }
+
+.social-icons a:last-child {
+  margin-right: 0; }
 
 .social-icons a:hover {
   background-color: #007bff; }
 
-.dev-icons li i {
-  font-size: 6.1rem;
+div.w-100 ul.dev-icons {
   text-align: center; }
+
+.dev-icons li i {
+  font-size: 6.1rem; }
 
 .dev-icons li {
   display: inline-flex; }
 
 .dev-icons .list-inline-item i:hover {
   color: #007bff; }
+
+.cv-download {
+  color: white;
+  border-radius: 500px;
+  -webkit-border-radius: 500px;
+  -moz-border-radius: 500px;
+  text-transform: uppercase;
+  transition: background 0.4s, color 0.4s;
+  padding: 10px 20px; }
+
+.cv-download:hover {
+  background-color: #007bff; }
 
 h1 {
   font-size: 2.25rem; }
@@ -94,7 +108,7 @@ section {
   position: relative; }
 
 .cv-download, .cv-download a {
-  float: left;
+  float: right;
   color: #fff; }
 
 .footer {
@@ -110,6 +124,10 @@ section {
   left: 0; }
 
 @media (min-width: 250px) and (max-width: 767.98px) {
+  div.w-100 div.social-icons {
+    text-align: center; }
+  div.w-100 ul.dev-icons {
+    text-align: center; }
   section {
     margin-bottom: 0; }
   h2.custom-align {
@@ -128,17 +146,15 @@ section {
     font-size: 1.5rem; }
   .cv-download, .cv-download a {
     display: none; }
-  .social-icons a {
-    height: 2.5rem;
-    width: 2.5rem;
-    font-size: 1.5rem;
-    line-height: 2.5rem; }
   .dev-icons li i {
-    text-align: center;
     font-size: 3.5rem;
     margin-right: 1.5rem; } }
 
 @media (min-width: 768px) and (max-width: 991.98px) {
+  div.w-100 div.social-icons {
+    text-align: center; }
+  div.w-100 ul.dev-icons {
+    text-align: center; }
   section {
     margin-bottom: 0; }
   .header {
@@ -155,17 +171,16 @@ section {
     font-size: 1.6rem; }
   h5 {
     font-size: 1.5rem; }
-  .social-icons a {
-    height: 2.5rem;
-    width: 2.5rem;
-    font-size: 1.5rem;
-    line-height: 2.5rem; }
   .cv-download, .cv-download a {
     display: none; }
   .dev-icons li {
     font-size: 3.5rem; } }
 
 @media (min-width: 992px) and (max-width: 1199.98px) {
+  div.w-100 div.social-icons {
+    text-align: center; }
+  div.w-100 ul.dev-icons {
+    text-align: center; }
   section {
     margin-bottom: 0; }
   .header {
@@ -182,21 +197,11 @@ section {
     font-size: 1.6rem; }
   h5 {
     font-size: 1.5rem; }
-  .social-icons a {
-    height: 2.5rem;
-    width: 2.5rem;
-    font-size: 1.5rem;
-    line-height: 2.5rem; }
   .dev-icons li {
     font-size: 3.5rem;
     margin-right: 5rem; } }
 
 @media (min-width: 1200px) {
-  .social-icons a {
-    height: 2.5rem;
-    width: 2.5rem;
-    font-size: 1.5rem;
-    line-height: 2.5rem; }
   .dev-icons li {
     font-size: 3.5rem;
     margin-right: 5rem; } }
