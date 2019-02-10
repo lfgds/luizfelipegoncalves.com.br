@@ -13,9 +13,6 @@ h1, h2, h3, h4, h5, h6 {
   font-weight: 700;
 }
 
-.logo {
-  height: 35px;
-}
 .social-icons a{
   float: right;
 	height:3.5rem;
@@ -119,6 +116,10 @@ section {
   left: 0;
 }
 @media (min-width:250px) and (max-width:767.98px) {
+
+  nav a img.logo{
+    
+  }
   section {
     margin-bottom: 0;
   }
@@ -162,6 +163,7 @@ section {
 
 }
 @media (min-width:768px) and (max-width:991.98px) {
+
   section {
     margin-bottom: 0;
   }
