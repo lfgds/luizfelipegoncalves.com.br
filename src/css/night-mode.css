@@ -1,0 +1,18 @@
+body {
+  background: #292929;
+  color: #848991;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+.comment-reply-title,
+.comments-title {
+  color: #b3b9c5;
+}
+
+h1 {
+  color: #b3b9c5;
+}
